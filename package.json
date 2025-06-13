@@ -1,7 +1,7 @@
 {
   "name": "webhook-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minimal Express.js server that logs incoming webhook requests to the console, with Docker support.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rocard Fonji",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
